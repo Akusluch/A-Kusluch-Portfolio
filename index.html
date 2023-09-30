@@ -1,64 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="reset" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
     <Header>
         <h1>
-            Alphoonse Kusluch
+            Alphonse Kusluch
         </h1>
     </Header>
     <nav>
-        <ul>
-            <li>
-                About Me
-            </li>
-            <li>
-                Work
-            </li>
-            <li>
-                Contact Info
-            </li>
-        </ul>
+        <a href="#about me">About me</a>
+        <a href="#work">Work</a>
+        <a href="#info">Contact info</a>
     </nav>
-    <!-- top cut of the screen nav and header above aside and main sections bellow -->
-    <aside>
-        <h2>About Me</h2>
-        <h2>Work</h2>
-        <h2>contact Info</h2>
-    </aside>
-    <Section>
-        <div>
-            <img scr="./assets/images/Alphonse Kusluch.jpg" alt="Photo of Alphonse Kusluch" />
-        </div>
-        <p>
-            Hello, I am a begginer level web developer looking to learn and improve apon my skills beveloped so far. I have a bachelor's degree in biochemisty from Coastal Carolina University. Born and raised in western Pennsylvania.
-        </p>
-    </Section>
-    <section>
-        <img src="./assets/images/challenge-1-img.png" alt="image of challenge-1" />
-        <Img scr="./assets/images/placeholder.png" alt="Placeholder for future project work"/>
-        <Img scr="assets/images/placeholder" alt="Placeholder for future project work"/>
-        <Img scr="assets/images/placeholder" alt="Placeholder for future project work"/>
-        <Img scr="assets/images/placeholder" alt="Placeholder for future project work"/>
-        <!-- Project work goes here -->
+    <section class="work1 justify">
+        <!-- top cut of the screen nav and header above aside and main sections bellow -->
+        <aside>
+            <h2>About Me</h2>
+            <h2>Work</h2> 
+            <h2>contact Info</h2>
+        </aside>
+        <section>
+            <div class="bio" id="about me">
+                <img class=selfi src="./assets/images/Alphonse Kusluch.jpg" alt="Alphonse Kusluch" />
+                <p>
+                    Hello, I am a begginer level web developer looking to learn and improve apon my skills beveloped so far. I have a bachelor's degree in biochemisty from Coastal Carolina University. Born and raised in western Pennsylvania.
+                </p>
+            </div>
+            <div class="work1" id="work">
+                <div class="work2">
+                    <a href="https://akusluch.github.io/challenge-1/"> " <img class="place" id="challenge1" src="./assets/images/challenge-1-img.png" alt="Challenge-1" /></a>
+                    <Img class="place" src="./assets/images/placeholder.png" alt="placeholder" />
+                    <Img class="place" src="./assets/images/placeholder.png" alt="placeholder" />
+                    <Img class="place" src="./assets/images/placeholder.png" alt="placeholder" />
+                    <Img class="place" src="./assets/images/placeholder.png" alt="placeholder" />
+                </div>
+            </div>
+        </section>
     </section>
     <!-- Bottom cut of the page footer bellow  -->
-    <footer>
-        <ul>
-            <li>
-                724-594-7110
-            </li>
-            <li>
-                Alkusluch@gmail.com
-            </li>
-            <li>
-                <a href="https://github.com/Akusluch"> Github</a>
-            </li>
-        </ul>
+    <footer id="info">
+        <p>724-594-7110</p>
+        <p>alkusluch@gmail.com</p>
+        <p><a href="https://github.com/Akusluch"> Akusluch Github</a></p>
     </footer>
 </body>
 </html>

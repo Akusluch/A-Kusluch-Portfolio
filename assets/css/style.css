@@ -1,0 +1,102 @@
+header {
+    text-align: center;
+    padding: 20px;
+    color: antiquewhite;
+    background-color: black;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    background-color: darkgrey;
+}
+
+nav a {
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+}
+
+aside {
+    color: red;
+    margin-left:200px;
+}
+
+section p {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 5px; */
+    justify-content: flex-start;
+    color: white;
+}
+
+footer {
+    padding: 10px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+footer p {
+    padding: 15px;
+    color: black;
+}
+
+.aside {
+    color:red;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+}
+
+.selfi {
+    max-width: 15%;
+    height: auto;
+    /* flex: 0 0 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 2px solid red;
+    padding: 15px 0 50px 50px;
+    /* margin: 0 0 100px 100px;  */
+}
+.bio {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    background-color: black;
+}
+
+.work1 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.justify {
+    justify-content: center;
+}
+
+.work2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+    border-left: 2px solid red;
+    /* padding: 15px 0 50px 50px;
+    margin: 0 0 100px 100px;
+} */
+
+.place {
+    height: 290px;
+    width: 290px;
+    /* margin: 4px; */
+    border: 1px solid red;
+}
+
+#challenge1 {
+    height: 590px;
+    width: 590px;
+}
+
