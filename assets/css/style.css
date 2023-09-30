@@ -20,16 +20,21 @@ nav a {
 }
 
 aside {
+    display:flex;
+    align-items: flex-start;
     color: red;
-    margin-left:200px;
+    margin-left:100px;
+    flex-direction: column;
 }
 
 section p {
     display: flex;
     flex-wrap: wrap;
-    /* padding: 5px; */
     justify-content: flex-start;
     color: white;
+    padding-left:20px;
+    width:400px;
+    height:200px;
 }
 
 footer {
@@ -37,7 +42,7 @@ footer {
     background-color: darkgray;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 footer p {
@@ -46,6 +51,8 @@ footer p {
 }
 
 .aside {
+    display:flex;
+    justify-content: flex-start;
     color:red;
     padding: 10px;
     margin: 10px;
@@ -55,48 +62,65 @@ footer p {
 .selfi {
     max-width: 15%;
     height: auto;
-    /* flex: 0 0 200px; */
     display: flex;
     flex-wrap: wrap;
-    border-left: 2px solid red;
-    padding: 15px 0 50px 50px;
-    /* margin: 0 0 100px 100px;  */
+    border: 2px solid red;
+    padding: 5px;
 }
+
 .bio {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
     background-color: black;
 }
 
 .work1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     background-color: black;
+    width: 100%;
+    padding: 15px 0 50px 50px;
+    border-left: 2px solid red;
 }
+
 .justify {
     justify-content: center;
 }
 
-.work2 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px;
-    justify-content: center;
-    border-left: 2px solid red;
-    /* padding: 15px 0 50px 50px;
-    margin: 0 0 100px 100px;
-} */
-
 .place {
     height: 290px;
     width: 290px;
-    /* margin: 4px; */
+    margin: 4px;
     border: 1px solid red;
 }
 
 #challenge1 {
-    height: 590px;
+    height: Auto;
     width: 590px;
 }
 
+#main {
+    background-color: black;
+}
+
+#work {
+    width: 610px;
+}
+
+div a:hover {
+    opacity: 75%;
+}
+
+div a::before {
+    content: "Challenge-1";
+    color: red;
+    background-color: white;
+    position:absolute;
+}
+
+div p::before {
+    content: "Bio";
+    color: red;
+    text-decoration: underline;
+}
