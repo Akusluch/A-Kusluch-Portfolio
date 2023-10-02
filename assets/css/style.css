@@ -21,10 +21,12 @@ nav a {
 
 aside {
     display:flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     color: red;
     margin-left:100px;
     flex-direction: column;
+    width: fit-content;
 }
 
 section p {
@@ -72,6 +74,7 @@ footer p {
     display: flex;
     flex-direction: row;
     background-color: black;
+    width: fit-content;
 }
 
 .work1 {
@@ -82,6 +85,7 @@ footer p {
     width: 100%;
     padding: 15px 0 50px 50px;
     border-left: 2px solid red;
+    width: fit-content;
 }
 
 .justify {
@@ -102,10 +106,16 @@ footer p {
 
 #main {
     background-color: black;
+    display: flex;
+    flex-direction: row;
 }
 
 #work {
     width: 610px;
+}
+
+#box1, #box2, #box3 {
+    height: 400px;
 }
 
 div a:hover {
