@@ -122,15 +122,22 @@ div a:hover {
     opacity: 75%;
 }
 
-div a::before {
-    content: "Challenge-1";
-    color: red;
-    background-color: white;
-    position:absolute;
-}
-
 div p::before {
     content: "Bio";
     color: red;
     text-decoration: underline;
 }
+
+#a1::before {
+    content: "Challenge-1";
+    color: red;
+    background-color: white;
+    position:absolute;
+} 
+
+#a2::before {
+    content: "Dog breeds for you";
+    color: blue;
+    background-color: white;
+    position:absolute;
+} 
